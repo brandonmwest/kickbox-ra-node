@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kickbox Email Capture Demo</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    
+    <form>
+      <h1>Sign Up</h1>
+      <h2>Fill out the form below to get started.</h2>
+      
+      <label for="email">Email Address</label>
+      <input required type="email" name="email"/>
+      <br/><br/>
+      <button type="submit">
+        Submit
+      </button>
+    </form>
+ 
+	  <div id="tracker"></div>
+	
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="https://kickbox.io/authenticate/1/release.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
